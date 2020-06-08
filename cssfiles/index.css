@@ -13,8 +13,12 @@ header {
     background-color: #9b0007;
 }
 
+.logodesk {
+    display: none;
+}
+
 .logo {
-    width: 200px;
+    width: 45%;
     margin: 3% 8%;
 }
 
@@ -23,8 +27,12 @@ header {
     height: 736px;
 }
 
-.portfolio {
+#secao-portfolio {
     background-color: #9b0007;
+}
+
+#secao-skills {
+    background-color: #6c009b;
 }
 
 .opcoes {
@@ -37,10 +45,13 @@ header {
 }
 
 .botao {
+
     background: none;
     
+    text-decoration: none;
     font-size: 1.8em;
     font-style: italic;
+    font-weight: bold;
     color: #fff;
     
     border: none;
@@ -60,4 +71,43 @@ footer {
     text-align: right;
     margin: 4% 5%;
     font-size: 0.7rem;
+}
+
+@media (min-width:768px) {
+    .topo {
+        height: 5%;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .logodesk {
+        display: initial;
+        width: 20%;
+        margin: 2% 3%;
+    }
+
+    .opcoes {
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 2% 20%;
+        text-align: center;
+        margin: 3%;
+    }
+    
+    .botoes {
+        padding: 15%;
+        font-size: 0.8em;
+    }
+    
+    #skills {
+        grid-area: 2 / 1;
+    }
+
+    footer {
+        text-align: center;
+        margin: 1% 0%;
+        font-size: 0.8rem;
+    }
 }
