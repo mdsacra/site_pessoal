@@ -22,7 +22,13 @@ header {
     margin: 3% 8%;
 }
 
-.home {
+.logo-reduz {
+    width: 3%;
+    margin-top: 3%;
+    margin-left: 4%;
+}
+
+#secao-home {
     background-color: #2b2b2b;
     height: 736px;
 }
@@ -35,6 +41,16 @@ header {
     background-color: #6c009b;
 }
 
+#secao-bio {
+    background-color: #e2e2e2;
+    color: #2b2b2b;
+}
+
+#secao-contato {
+    background-color: #2b2b2b;
+}
+
+
 .opcoes {
     text-align: right;
     margin: 20% 5%;
@@ -45,11 +61,11 @@ header {
 }
 
 .botao {
-
+    
     background: none;
     
     text-decoration: none;
-    font-size: 1.8em;
+    font-size: 1.3rem;
     font-style: italic;
     font-weight: bold;
     color: #fff;
@@ -59,8 +75,9 @@ header {
     
 }
 
-.botao-seg-plano {
+.menu {
     display: none;
+    
 }
 
 #linha {
@@ -72,6 +89,9 @@ footer {
     margin: 4% 5%;
     font-size: 0.7rem;
 }
+
+/*------------------------*/
+/* CONFIGS CSS NO DESKTOP */
 
 @media (min-width:768px) {
     .topo {
@@ -104,10 +124,45 @@ footer {
     #skills {
         grid-area: 2 / 1;
     }
+    
+    /*--------*/
+    /* SEÇÕES */
+
+    .cabecalho-secao {
+        margin: 3% 8%;
+    }
+
+    .titulo-secao {
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+
+    .menu {
+        display: inline-block;
+        margin-left: 20%;
+        
+    }
+
+    .botao-seg-plano {
+        font-size: 0.9em;
+        margin-right: 70px;
+        
+    }
 
     footer {
         text-align: center;
         margin: 1% 0%;
         font-size: 0.8rem;
     }
+    
+    /*---------------------------*/
+    /* CONFIGS. SPECIFCS. SEÇÕES */
+
+    .quadro-site {
+        display: inline-block;
+    }
+    #secao-bio .botao-seg-plano {
+    color: #2b2b2b;
+    }
+
 }
