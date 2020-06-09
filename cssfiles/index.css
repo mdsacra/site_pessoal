@@ -158,9 +158,28 @@ footer {
     /*---------------------------*/
     /* CONFIGS. SPECIFCS. SEÇÕES */
 
+    .conjsites {
+        margin: 10% 0 5% 0;
+        text-align: center;
+    }
+
     .quadro-site {
         display: inline-block;
+        
     }
+
+    .quadro-site a {
+        color: #fff;
+    }
+
+    .miniatura-site {
+        width: 350px;
+    }
+
+    .botao-seg-plano__roxo {
+        border-bottom: #fff;
+    }
+
     #secao-bio .botao-seg-plano {
     color: #2b2b2b;
     }
