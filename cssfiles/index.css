@@ -30,7 +30,6 @@ header {
 
 #secao-home {
     background-color: #2b2b2b;
-    height: 736px;
 }
 
 #secao-portfolio {
@@ -134,13 +133,13 @@ footer {
     }
 
     .titulo-secao {
-        font-size: 1.5em;
+        font-size: 1.8em;
         font-weight: bold;
     }
 
     .menu {
         display: inline-block;
-        margin-left: 20%;
+        margin-left: 40%;
         
     }
 
