@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    font-family: 'Saira semi-condensed', sans-serif;
+    color: #ffffff;
+}
+
+header {
+    background-color: #9b0007;
+}
+
+#secao-home {
+    background-color: #2b2b2b;
+}
+
+#secao-portfolio {
+    background-color: #9b0007;
+}
+
+#secao-skills {
+    background-color: #6c009b;
+}
+
+#secao-bio {
+    background-color: #e2e2e2;
+    color: #2b2b2b;
+}
+
+#secao-contato {
+    background-color: #2b2b2b;
+}
+
+.botao {
+    
+    background: none;
+    padding: 0 3px;
+    
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-style: italic;
+    font-weight: bold;
+    color: #fff;
+    
+    border: none;
+    border-bottom: solid 2px #9b0007;
+    
+}
+
+#linha {
+    border-top: solid 2px #9b0007;
+}
+
+
+
+.quadro-site a, .quadro-site figcaption {
+    color: #fff;
+    text-align: center;
+}
+
+.titulo-secao {
+    font-weight: bold;
+}
+
+.conjsites {
+    align-content: center;
+}
+

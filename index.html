@@ -6,7 +6,9 @@
     
     <link href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&family=Saira+Semi+Condensed:wght@400;600&display=swap" rel="stylesheet">
     
-    <link rel="stylesheet" href="/cssfiles/index.css">
+    <link rel="stylesheet" href="/cssfiles/defaultstyles.css">
+    <link rel="stylesheet" href="/cssfiles/mobstyles.css">
+    <link rel="stylesheet" href="/cssfiles/deskstyles.css">
     
     <script src="index.js">
 
@@ -41,88 +43,92 @@
         <div id="linha"></div>
         <footer>Matheus Sacramento | 2020.</footer>
     </main>
+    <div class="secoes">
 
-    <section class="defineHeight" id="secao-portfolio">
-        <img class="logo-reduz" src="/imgs/LogoMSwhite.png" alt="MDSacra">
-        <div class="cabecalho-secao">
-            <span class="titulo-secao">Portfolio</span> 
-            <div class="menu">
-                <a href="#" class="botao  botao-seg-plano  botao-seg-plano__roxo" id="skills">Skills</a>
-                <a href="#" class="botao  botao-seg-plano  botao-seg-plano__roxo" id="bio">Bio</a>
-                <a href="#" class="botao  botao-seg-plano  botao-seg-plano__roxo" id="contato">Contato</a>
+        <section class="defineHeight" id="secao-portfolio">
+            <img class="logo-reduz" src="/imgs/LogoMSwhite.png" alt="MDSacra">
+            <div class="cabecalho-secao">
+                <span class="titulo-secao">Portfolio</span> 
+                <div class="menu">
+                    <a href="#secao-skills" class="botao  botao-seg-plano  botao-seg-plano__roxo" id="skills">Skills</a>
+                    <a href="#secao-bio" class="botao  botao-seg-plano  botao-seg-plano__roxo" id="bio">Bio</a>
+                    <a href="#secao-contato" class="botao  botao-seg-plano  botao-seg-plano__roxo" id="contato">Contato</a>
+                </div>
             </div>
-        </div>
-        <div class="conjsites">
-            <figure class="quadro-site">
-                <img class= "miniatura-site" src="/imgs/maudio.png" alt="Site#1">
-                <figcaption>
-                    <a href="#">M. Audio Produtora de Áudio</a>
-                </figcaption> 
-            </figure>
-            <figure class="quadro-site">
-                <img class= "miniatura-site" src="/imgs/ndm.png" alt="Site#2">
-                <figcaption>
-                    <a href="#">Números da Mega - Sorteador de Sequências</a>
-                </figcaption>
-            </figure>
-            <figure class="quadro-site">
-                <img class= "miniatura-site" src="/imgs/home.png" alt="Site#3">
-                <figcaption>
-                    <a href="#">Exemplo de Home Page</a>
-                </figcaption>
-            </figure>
-        </div>
-        <div style="text-align: center">
-            <a href="https://www.github.com/mdsacra" style="color: #fff" target="blank">github.com/MDSACRA</a>
-        </div>
-    </section>
-
-    <section class="defineHeight" id="secao-skills">
-        <img class="logo-reduz" src="/imgs/LogoMSwhite.png" alt="MDSacra">
-        <div class="cabecalho-secao">
-            <span class="titulo-secao">Skills</span>
-            <div class="menu">
-                <a href="#" class="botao  botao-seg-plano"  id="portfolio">Portfolio</a>
-                <a href="#" class="botao  botao-seg-plano"  id="bio">Bio</a>
-                <a href="#" class="botao  botao-seg-plano"  id="contato">Contato</a>
+            <div class="conjsites">
+                <figure class="quadro-site">
+                    <img class= "miniatura-site" src="/imgs/maudio.png" alt="Site#1">
+                    <figcaption>
+                        <a href="#">M. Audio Produtora de Áudio</a>
+                    </figcaption> 
+                </figure>
+                <figure class="quadro-site">
+                    <img class= "miniatura-site" src="/imgs/ndm.png" alt="Site#2">
+                    <figcaption>
+                        <a href="#">Números da Mega - Sorteador de Sequências</a>
+                    </figcaption>
+                </figure>
+                <figure class="quadro-site">
+                    <img class= "miniatura-site" src="/imgs/home.png" alt="Site#3">
+                    <figcaption>
+                        <a href="#">Exemplo de Home Page</a>
+                    </figcaption>
+                </figure>
             </div>
-        </div>
-    </section>
-
-    <section class="defineHeight" id="secao-bio">
-        <img class="logo-reduz" src="/imgs/LogoMSred.png" alt="MDSacra">
-        <div class="cabecalho-secao">
-            <span class="titulo-secao">Bio</span>
-            <div class="menu">
-                <a href="#" class="botao  botao-seg-plano" id="portfolio">Portfolio</a>
-                <a href="#" class="botao  botao-seg-plano" id="skills">Skills</a>
-                <a href="#" class="botao  botao-seg-plano" id="contato">Contato</a>
+            <div style="text-align: center">
+                <a href="https://www.github.com/mdsacra" style="color: #fff" target="blank">Visite meu perfil no GitHub</a>
             </div>
-        </div>
-        <div class="conteudo">
-            <div id="eu">
-                <img src="/imgs/eumesmo2.jpg" alt="Matheus Sacramento">
+        </section>
+        
+        <section class="defineHeight" id="secao-skills">
+            <img class="logo-reduz" src="/imgs/LogoMSwhite.png" alt="MDSacra">
+            <div class="cabecalho-secao">
+                <span class="titulo-secao">Skills</span>
+                <div class="menu">
+                    <a href="#secao-portfolio" class="botao  botao-seg-plano"  id="portfolio">Portfolio</a>
+                    <a href="#secao-bio" class="botao  botao-seg-plano"  id="bio">Bio</a>
+                    <a href="#secao-contato" class="botao  botao-seg-plano"  id="contato">Contato</a>
+                </div>
             </div>
-            <div id="texto">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea expedita placeat id ratione ullam minima nisi accusantium, non nemo architecto veritatis dolor earum, aliquid quas. Consequuntur ab corrupti debitis architecto.</p>
-                <a href="https://www.linkedin.com/mdsacra" style="color: #2b2b2b">linkedin.com/MDSACRA</a>
+        </section>
+        
+        <section class="defineHeight" id="secao-bio">
+            <img class="logo-reduz" src="/imgs/LogoMSred.png" alt="MDSacra">
+            <div class="cabecalho-secao">
+                <span class="titulo-secao">Bio</span>
+                <div class="menu">
+                    <a href="#secao-portfolio" class="botao  botao-seg-plano" id="portfolio">Portfolio</a>
+                    <a href="#secao-skills" class="botao  botao-seg-plano" id="skills">Skills</a>
+                    <a href="#secao-contato" class="botao  botao-seg-plano" id="contato">Contato</a>
+                </div>
             </div>
-        </div>
-    
-    </section>
-
-    <section class="defineHeight" id="secao-contato">
-        <img class="logo-reduz" src="/imgs/LogoMSwhite.png" alt="MDSacra">
-        <div class="cabecalho-secao">
-            <span class="titulo-secao">Contato</span>
-            <div class="menu">
-                <a href="#" class="botao  botao-seg-plano" id="portfolio">Portfolio</a>
-                <a href="#" class="botao  botao-seg-plano" id="skills">Skills</a>
-                <a href="#" class="botao  botao-seg-plano" id="bio">Bio</a>
+            <div class="conteudo">
+                <div id="eu">
+                    <img src="/imgs/eumesmo2.jpg" alt="Matheus Sacramento">
+                </div>
+                <div id="texto">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea expedita placeat id ratione ullam minima nisi accusantium, non nemo architecto veritatis dolor earum, aliquid quas. Consequuntur ab corrupti debitis architecto.</p>
+                    <div id="linkedin">
+                        <a href="https://www.linkedin.com/mdsacra" style="color: #2b2b2b">Me siga no Linkedin</a>
+                    </div>
+                </div>
             </div>
-        </div>
-       
-    </section>
-    
-</body>
-</html>
+            
+        </section>
+        
+        <section class="defineHeight" id="secao-contato">
+            <img class="logo-reduz" src="/imgs/LogoMSwhite.png" alt="MDSacra">
+            <div class="cabecalho-secao">
+                <span class="titulo-secao">Contato</span>
+                <div class="menu">
+                    <a href="#secao-portfolio" class="botao  botao-seg-plano" id="portfolio">Portfolio</a>
+                    <a href="#secao-skills" class="botao  botao-seg-plano" id="skills">Skills</a>
+                    <a href="#secao-bio" class="botao  botao-seg-plano" id="bio">Bio</a>
+                </div>
+            </div>
+            
+        </section>
+    </div>
+        
+    </body>
+    </html>

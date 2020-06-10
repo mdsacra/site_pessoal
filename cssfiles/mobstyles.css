@@ -1,0 +1,80 @@
+/*------------------------*/
+/* CONFIGS CSS NO MOBILE */
+
+.topo {
+    height: 10%;
+    background-color: #2b2b2b;
+}
+
+.logodesk {
+    display: none;
+}
+
+.logo {
+    width: 45%;
+    margin: 3% 8%;
+}
+
+.logo-reduz {
+    width: 3%;
+    margin-top: 3%;
+    margin-left: 4%;
+}
+
+.opcoes {
+    text-align: right;
+    margin: 25% 5%;
+
+}
+.botoes {
+    padding: 5%;
+}
+
+.menu {
+    display: none;
+    
+}
+
+footer {
+    text-align: right;
+    margin: 4% 5%;
+    font-size: 0.7rem;
+}
+
+/*--------*/
+/* SEÇÕES */
+
+.logo-reduz {
+    width: 6%;
+    margin-top: 6%;
+    margin-left: 8%;
+}
+
+.titulo-secao {
+    font-size: 1.3em;
+}
+
+.cabecalho-secao {
+    margin: 5%;
+}
+.cabecalho-secao, #eu, #linkedin {
+    text-align: center;
+    margin: 5%;
+}
+
+.miniatura-site {
+    width: 100%;
+}
+
+.secoes a {
+    font-size: 0.7em;
+}
+
+#eu img {
+    width: 40%;
+}
+
+#texto {
+    margin: 5%;
+    text-align: justify;
+}
