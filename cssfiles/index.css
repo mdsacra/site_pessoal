@@ -63,6 +63,7 @@ header {
 .botao {
     
     background: none;
+    padding: 0 3px;
     
     text-decoration: none;
     font-size: 1.3rem;
@@ -158,8 +159,10 @@ footer {
     /*---------------------------*/
     /* CONFIGS. SPECIFCS. SEÇÕES */
 
+    /* SEÇÃO PORTFÓLIO */
     .conjsites {
-        margin: 10% 0 5% 0;
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
         text-align: center;
     }
 
@@ -173,15 +176,30 @@ footer {
     }
 
     .miniatura-site {
-        width: 350px;
+        width: 100%;
     }
 
     .botao-seg-plano__roxo {
-        border-bottom: #fff;
+        border-bottom: solid 2px #6c009b;
     }
 
+    /* SEÇÃO BIO */
+
+    #eu img {
+        width: 30%;
+    }
     #secao-bio .botao-seg-plano {
     color: #2b2b2b;
     }
 
+    .conteudo {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        text-align: center;
+    }
+    
+    #texto {
+        width: 50%;
+        text-align: justify;
+    }
 }
